@@ -14,12 +14,13 @@ const HeroBanner = () => {
         Fitness Club
       </Typography>
       <Typography
-        fontWeight={500}
-        sx={{ fontSize: { lg: '40px', xs: '35px' } }}
-        mb='20px'
-        mt='25px'
+        fontWeight={700}
+        sx={{ fontSize: { lg: '44px', xs: '40px' } }}
+        mb='23px'
+        mt='30px'
       >
-        No Pain, No Gain.
+        Sweat, Smile <br />
+        And Repeat
       </Typography>
       <Typography fontSize='22px' fontFamily='Alegreya' lineHeight='35px'>
         Check out the most effective exercises personalized to you
@@ -43,7 +44,17 @@ const HeroBanner = () => {
           Explore Exercises
         </a>
       </Stack>
-
+      <Typography
+        fontWeight={100}
+        color='#FF2625'
+        sx={{
+          opacity: '0.1',
+          display: { lg: 'block', xs: 'none' },
+          fontSize: '20px',
+        }}
+      >
+        Exercise
+      </Typography>
       <img
         src={HeroBannerImage}
         alt='hero-banner'
